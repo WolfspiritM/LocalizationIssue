@@ -3,14 +3,19 @@
     ViewData["Title"] = "Home Page";
 }
 <div>
-  <br/>
-  <form>
+  <br />
+  <form method="post">
     <div class="form-group">
       <label asp-for="Username"></label>
       <input asp-for="Username" type="text" class="form-control">
+      <span asp-validation-for="Username"></span>
     </div>
-    <button type="submit">Login</button>
+    <button type="submit">Test</button>
   </form>
 
 
 </div>
+
+@section Scripts {
+    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
+}
