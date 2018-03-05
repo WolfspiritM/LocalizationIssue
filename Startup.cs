@@ -11,7 +11,6 @@ namespace LocalizationIssue
 {
     using System.Globalization;
     
-    using LocalizationIssue.Resources;
 
     using Microsoft.AspNetCore.Localization;
     using Microsoft.AspNetCore.Mvc.Razor;

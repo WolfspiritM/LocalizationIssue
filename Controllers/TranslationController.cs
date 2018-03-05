@@ -8,7 +8,6 @@ using LocalizationIssue.Models;
 
 namespace LocalizationIssue.Controllers
 {
-    using LocalizationIssue.Resources;
 
     using Microsoft.Extensions.Localization;
 
